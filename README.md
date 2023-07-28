@@ -2,7 +2,7 @@
 
 ## Information
 - Add a counter which counts the total rigblock in the current editor.
-- This is the souce code, [download the mod here]().
+- This is the souce code, [download the mod here](https://github.com/Studumb/RigblockCounter/releases/tag/v0.1).
 - Spore-ModAPI is required.
 
 ## Credits
