@@ -21,7 +21,7 @@ int AddCounter::Release()
 	return DefaultRefCounted::Release();
 }
 
-//Whenever an editor launch it will add the counter
+//Whenever an editor launchs it will add the counter
 bool AddCounter::HandleMessage(uint32_t messageID, void* message)
 {
 	if (Editor.IsActive()) {
