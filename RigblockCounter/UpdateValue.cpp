@@ -29,8 +29,12 @@ bool UpdateValue::HandleMessage(uint32_t messageID, void* message)
 	if (Editor.IsActive()) {
 		wchar_t rignum[4];
 		char16_t rigdisplay[4];
+		//We have to convert from int to wchar_t
 		swprintf_s(rignum, L"%d", Editor.GetEditorModel()->GetRigblocksCount());
+		//Then cast the value to rigdisplay[4]
 		swprintf_s(reinterpret_cast<wchar_t*>(rigdisplay), 4, rignum);
+		/*The reason we have to do two steps above because in order to display the value we must change the caption of the window
+		but the caption only accpet char16_t */
 		WindowManager.GetMainWindow()->FindWindowByID(id("rigDisplayer"))->SetCaption(rigdisplay);
 	}
 	return true;
