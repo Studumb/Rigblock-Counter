@@ -25,6 +25,7 @@ int AddCounter::Release()
 bool AddCounter::HandleMessage(uint32_t messageID, void* message)
 {
 	if (Editor.IsActive()) {
+		//CounterUI is defined in AddCounter.h
 		CounterUI->LoadByName(u"rigblockCounter");
 		CounterUI->SetParentWindow(WindowManager.GetMainWindow()->FindWindowByID(0x330C1CA5));
 		//0x330C1CA5 is the controlID of the Complexity Meter
