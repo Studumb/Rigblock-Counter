@@ -6,9 +6,9 @@
 void Initialize()
 {
 	//We will have two message listener for two different purposes
-	//This one is used to add the counter
+	//This one is used to add the counter to the current editor
 	MessageManager.AddListener(new AddCounter(), App::kMsgOnModeEnter);
-	//This one is used to count the total rigblock and update it
+	//This one is used to count the total rigblock and update the value shown on the counter
 	MessageManager.AddListener(new UpdateValue(), App::kMsgAppUpdate);
 }
 
