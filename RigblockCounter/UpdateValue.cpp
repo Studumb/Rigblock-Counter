@@ -35,6 +35,7 @@ bool UpdateValue::HandleMessage(uint32_t messageID, void* message)
 		swprintf_s(reinterpret_cast<wchar_t*>(rigdisplay), 4, rignum);
 		/*The reason we have to do two steps above because in order to display the value we must change the caption of the window
 		but the caption use UNICODE so we have to use char16_t */
+		//This line below will find the counter and change its caption
 		WindowManager.GetMainWindow()->FindWindowByID(id("rigDisplayer"))->SetCaption(rigdisplay);
 	}
 	return true;
