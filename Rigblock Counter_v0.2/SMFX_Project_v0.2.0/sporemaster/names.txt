@@ -1,0 +1,36 @@
+names
+detail
+callToolTip
+layouts_atlas~	0x40464200
+rigblockCounter
+rigLeft
+tooltipTrigger
+rigCounter
+displayer
+Counte
+SpacePlanetTooltip
+toolTip - Copy
+rigblockDisplayer
+toolTip
+rigNumDisplayer
+Cou
+0
+EditorHealthBar
+GlobalEditorUI
+Counter U
+Counter UI
+Count
+EditorBudget
+Co
+Counter
+triggerTooltip
+C
+numRigLeft
+graphics_atlas~	0x31a44893
+Coun
+rigDisplayer
+CounterTooltip
+CounterUI_atlat
+EditorComplexityMeter
+sporemaster
+CounterUI_atlas
