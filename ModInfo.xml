@@ -1,4 +1,8 @@
-<mod displayName="Rigblock Counter" unique="Rigblock Counter" description="Rigblock Counter or Part Counter is a simple but handy mod for Spore creators who want to easily track the number of rigblocks (parts) used in their creations. Might help prevent game-crashing due to passing the rigblock limit." installerSystemVersion="1.0.1.0" hasCustomInstaller="false" dllsBuild="2.5.20">
-<prerequisite game ="GalacticAdventures">RigblockCounter_v0.2.0.package</prerequisite>
-<prerequisite>RigblockCounter_v0.2.0.dll</prerequisite>
+<mod displayName="Rigblock Counter" 
+     unique="Rigblock Counter" 
+     description="Rigblock Counter or Part Counter is a simple but handy mod for Spore creators who want to easily track the number of rigblocks (parts) used in their creations. Might help prevent game-crashing due to passing the rigblock limit." 
+     installerSystemVersion="1.0.1.0" 
+     hasCustomInstaller="false" dllsBuild="2.5.20">
+<prerequisite game ="GalacticAdventures">RigblockCounter_v0.2.1.package</prerequisite>
+<prerequisite>RigblockCounter_v0.2.1.dll</prerequisite>
 </mod>
