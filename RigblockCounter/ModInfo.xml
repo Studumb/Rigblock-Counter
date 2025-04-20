@@ -1,4 +1,0 @@
-<mod displayName="RigblockCounter" unique="RigblockCounter" description="Rigblock Counter" installerSystemVersion="1.0.1.0" hasCustomInstaller="false" dllsBuild="2.5.20">
-<prerequisite game ="GalacticAdventures">RigblockCounter_v0.2.0.package</prerequisite>
-<prerequisite>RigblockCounter_v0.2.0.dll</prerequisite>
-</mod>
